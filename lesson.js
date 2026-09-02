@@ -32,6 +32,7 @@
 //   }
 // }
 
+<<<<<<< HEAD
 // const numbers = [12, -5, 8, 7];
 // for (let i = 0; i < numbers.length; i++) {
 //   for (let j = i + 1; j < numbers.length; j++) {
@@ -72,3 +73,14 @@ const squares = arr.map((currentElement) => {
   return currentElement - 1;
 });
 console.log(squares);
+=======
+const numbers = [
+  12, -5, 8, 23, -9, 23, 4, -31, 15, -2, 7, -14, 0, 19, -8, 26, -45, 3, -11, -6,
+  10, -23, 18, -4, 29, -16, 5, -38, 29,
+];
+for (let i = 1; i < numbers.length - 1; i++) {
+  for (let j = i + 1; j < numbers.length; i++) {
+    console.log(numbers[i]);
+  }
+}
+>>>>>>> 301eff30166de0d3e1ef3eac0b6b830864e2e753
